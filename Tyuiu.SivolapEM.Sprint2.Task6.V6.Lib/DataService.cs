@@ -9,27 +9,27 @@ namespace Tyuiu.SivolapEM.Sprint2.Task6.V6.Lib
             string suit = "";
             string rank = "";
 
-            switch (value2)
+            switch (value1)
             {
                 case 1: suit = "пик"; break;
                 case 2: suit = "треф"; break;
                 case 3: suit = "бубен"; break;
                 case 4: suit = "червей"; break;
-                default: Console.WriteLine("Неверный номер масти!"); break;
+                default: break;
             }
 
-            switch (value1)
+            switch (value2)
             {
-                case 6: rank = "Шестерка"; break;
-                case 7: rank = "Семерка"; break;
-                case 8: rank = "Восьмерка"; break;
-                case 9: rank = "Девятка"; break;
-                case 10: rank = "Десятка"; break;
-                case 11: rank = "Валет"; break;
-                case 12: rank = "Дама"; break;
-                case 13: rank = "Король"; break;
-                case 14: rank = "Туз"; break;
-                default: Console.WriteLine("Неверный номер достоинства!"); break;
+                case 6: rank = "шестерка"; break;
+                case 7: rank = "серка"; break;
+                case 8: rank = "восьмерка"; break;
+                case 9: rank = "девятка"; break;
+                case 10: rank = "десятка"; break;
+                case 11: rank = "валет"; break;
+                case 12: rank = "дама"; break;
+                case 13: rank = "король"; break;
+                case 14: rank = "туз"; break;
+                default: break;
             }
 
             return $"{rank} {suit}";
