@@ -5,13 +5,13 @@ internal class Program
     private static void Main(string[] args)
     {
         DataService ds = new DataService();
-        Console.Title = "Спринт #2 | Выполнил: Чигуров М. В. | ПКТб-24-1";
+        Console.Title = "Спринт #2 | Выполнил: Сиволап Е.М. | ИИПб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
         Console.WriteLine("* Тема: Получение результата из switch                                    *");
         Console.WriteLine("* Задание #6                                                              *");
-        Console.WriteLine("* Вариант #5                                                              *");
-        Console.WriteLine("* Выполнил: Чигуров Максим Владиславович | ПКТб-24-1                      *");
+        Console.WriteLine("* Вариант #6                                                              *");
+        Console.WriteLine("* Выполнил: Сиволап Егор Максимович | ИИПб-25-1                           *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Написать программу, которая использует сокращенную форму записи         *");

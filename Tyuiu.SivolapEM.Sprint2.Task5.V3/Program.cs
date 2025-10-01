@@ -10,7 +10,7 @@ internal class Program
         Console.WriteLine("* Спринт #2                                                               *");
         Console.WriteLine("* Тема: Оператор switch                                                   *");
         Console.WriteLine("* Задание #1                                                              *");
-        Console.WriteLine("* Вариант #15                                                             *");
+        Console.WriteLine("* Вариант #3                                                              *");
         Console.WriteLine("* Выполнил: Сиволап Егор Максимович | ИИПб-25-1                           *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
